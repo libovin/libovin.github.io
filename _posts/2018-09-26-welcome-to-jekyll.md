@@ -3,7 +3,7 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2018-05-17 14:05:21 +0800
 tags: jekyll update
-color: rgb(255,90,90)
+color: rgb(154,133,255)
 cover: '../assets/images/post-bg-hacker.jpg'
 subtitle: 'Welcome to Jekyll!'
 ---
