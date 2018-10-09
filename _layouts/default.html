@@ -1,12 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
+<html>
+<head>
+    <!-- 引入head标签 -->
+    {% include head.html %}
+</head>
 <body>
-<section>
-    {% include aside.html %}
-    {% include header.html %}
-    {% include main.html %}
-    {% include footer.html %}
-</section>
+<!-- 页面主体 -->
+{{ content }}
+
+<!-- 引用wow.js的动画效果 -->
+<script src="/assets/js/wow.js"></script>
+<script>
+  var wow = new WOW({
+    boxClass: 'wow',
+    animateClass: 'animated',
+    // offset: 5,
+    mobile: true,
+    live: true
+  });
+  wow.init();
+</script>
+<!-- 页面刷新回到顶部 -->
+<script>
+  window.onbeforeunload = function(){
+    //刷新后页面自动回到顶部
+    document.documentElement.scrollTop = 0;  //ie下
+    document.body.scrollTop = 0;  //非ie
+  }
+</script>
+
 </body>
 </html>
