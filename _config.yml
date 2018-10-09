@@ -25,10 +25,10 @@ url: "https://libovin.github.io" # the base hostname & protocol for your site, e
 # nav 中文字符空格：&emsp;
 nav: # 最佳体验 六个标签 且最好每个标签不超过4中文字
   首页: '/'
-  标签: '/tags'
-  时间线: '/timeline'
-  关于博主: '/about'
-  友情链接: '/friendLink'
+  标签: '/tags.html'
+  时间线: '/timeline.html'
+  关于博主: '/about.html'
+  友情链接: '/friends.html'
 
 # 博主
 author: true
@@ -64,7 +64,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-permalink: pretty
 
 # 分页
 paginate: 2
