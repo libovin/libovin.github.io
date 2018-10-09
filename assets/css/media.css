@@ -33,17 +33,6 @@
         width: 80%;
     }
 
-    .post-top {
-        height: 395px;
-    }
-
-    .post-titlearea span:first-child {
-        top: 40px;
-        font-size: 28px;
-        font-weight: 450;
-        width: 95%;
-    }
-
     .top span:nth-child(2) {
         top: 120px;
         font-size: 18px;
@@ -57,6 +46,17 @@
     .top span:nth-child(4) {
         top: 200px;
         font-size: 18px;
+    }
+
+    .post-top {
+        height: 395px;
+    }
+
+    .post-titlearea span:first-child {
+        top: 40px;
+        font-size: 28px;
+        font-weight: 450;
+        width: 95%;
     }
 
     .post-list li, .tags-list li, .ex-list li {
