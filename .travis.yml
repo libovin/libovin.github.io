@@ -10,5 +10,3 @@ install:
   - gem install jekyll-seo-tag
 script: 
   - jekyll build
-after_success:
-  - bash <(curl -s https://codecov.io/bash)
