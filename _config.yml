@@ -93,7 +93,7 @@ livere_uid: 'MTAyMC8zNDI2OS8xMDgwNg==' # MTAyMC8zNDI2OS8xMDgwNg==
 # Gitment评论 OAuth Application
 Gitment: true
 Gitment_owner: 'libovin'  # github用户名
-Gitment_repo: 'https://github.com/libovin/libovin.github.io'  # github博客存放的仓库名
+Gitment_repo: 'libovin.github.io'  # github博客存放的仓库名
 client_id: 'a548c25df3ac8b4e45e3'  # 注册 OAuth Application 后获得的 client_id
 client_secret: 'effbf58edef7bf2056dc5d9bc97ad56dca5d075d'  # 注册 OAuth Application 后获得的 client_secret
 
