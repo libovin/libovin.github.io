@@ -1,16 +1,11 @@
 language: ruby
-deploy:
-  provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
-  keep-history: true
-  on:
-    branch: master
+env:
+  global:
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 install: 
   - gem install jekyll
   - gem install jekyll-paginate
 script: 
-  - jekyll build && jekyll s
-notifications:
-  slack:
-    on_success: change
+  - jekyll build
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
